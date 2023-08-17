@@ -1,29 +1,22 @@
-# Data Scientists salary aalysis in 2020-2022
+# Hotel reviewer score prediction
 
-## The mail goal
-HR agency data set analysis aimed to investigate trends in DS salary 
+## Main goal
+Creating a model that should predict the rating of a hotel according to the Booking website based on the data available in the dataset. The dataset contains information about 515,000 hotel reviews in Europe. 
 
-## Analysis Tasks 
+## Tasks realized 
 
-1) Define features related to DS salary;
-2) If DS salary tend to raise annualy;
-3) Is there any difference in salaries of Data Scientists & Data Engineer in2022;
-4) Is there any difference in DS salary in various company sizes;
-5) If DS positions occurence relates to company size.
-
+1) Data cleaning;
+2) Elimination of missing values;
+3) New feature generation;
+4) Feature transformation;
+5) Feature selection
+6) Teaching a model of RandomForestRegressor, implemented in the sklearn library.
+7) Assessing the quality of the model using the MAPE metric (mean absolute percentage error).
 ## Summary
 
-    *It's statistically significant that DS salary in 2022 greater than in 2021
-    *There is no evidence to consider that in 2022 Data scientists salary is greater than Data Engineers salary
-    *It's statistically significant that Data scientist salaries are not equal in different sizes companies
-    *It's statistically significant that Data scientist salaries in Small-companies are less than in Large ones
-    *It's statistically significant that Data scientists positions occurence relates to company size
-    *It's statistically significant that Data scientists salary in US is greater than in all company locations (in total) except US
-    *It's statistically significant that Data scientists experience is related to remote type of job (remote_ratio = 100)
+    *At the final step 74 features was selected for model teaching.
+    *The score reached: 11.88. That correspond 18th place in the competition 
+    
 
-## Использованные инструменты и библиотеки
-* pandas 2.0.1
-* seaborn 0.12.2
-* matplotlib 3.6.3
-* scipy 1.9.3
-* category-encoders 2.6.1
+## Libraries & tools used
+* see the requirements
