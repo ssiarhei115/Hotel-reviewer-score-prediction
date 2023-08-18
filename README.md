@@ -15,7 +15,7 @@ Creating a model that should predict the rating of a hotel according to the Book
 ## Summary
 
     *At the final step 74 features was selected for model teaching.
-    *The score reached: 11.88. That correspond 18th place in the competition 
+    *The score reached in [the Booking reviews competition](https://www.kaggle.com/code/siarheis/hotel-sc-prediction?scriptVersionId=140108874 "Link to the competition page on Kaggle"): 11.88.  
     
 
 ## Libraries & tools used
