@@ -1,7 +1,7 @@
 # Hotel reviewer score prediction
 
 ## Main goal
-Creating a model that should predict the rating of a hotel according to the Booking website based on the data available in the dataset. The dataset contains information about 515,000 hotel reviews in Europe. 
+Creating hotel rating predictor model according to user's review. Source dataset contains information about 515,000 hotel reviews in Europe from Booking website.  
 
 ## Tasks realized 
 
